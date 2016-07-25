@@ -6,7 +6,11 @@ $listOfTitleFormats = "titleFormats.txt";
 
 $URI = $_SERVER['REQUEST_URI'];
 
-print $URI;
+if ( $URI === '/' ) {
+  showMainPage();
+} elsif ( $URI === '/get/*' ) {
+  get($URI.split('/',2);
+}
 
 ?>
 
