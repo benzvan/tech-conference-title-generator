@@ -1,0 +1,5 @@
+fast@@faster@@fastest
+slow@@slower@@slowest
+high@@higher@@highest
+low@@lower@@lowest
+secure@@more secure@@most secure
