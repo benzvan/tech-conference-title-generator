@@ -1,9 +1,62 @@
-log directory softlinked to /dev/null@@log directories softlinked to /dev/null
-culture
-culture change
-server
-google
-keyboard
-infrastructure
-
-
+/var/log Symlinked To /dev/null@@Log Directories Symlinked To /dev/null
+Culture
+Culture Change
+Server
+Google
+Keyboard
+Infrastructure
+3-Hour Standup
+2400 Baud Modem
+Duct Tape@@Duct Tape
+Global Write Lock
+Systemd@@Systemd
+Developer
+Skillset
+Heartbleed
+Jenkins
+Chef
+Puppet
+Hypervisor
+Magic Smoke
+Meritocracy@@Meritocracies
+Brogrammer
+NoSQL
+Oracle
+Database
+OpenSSL
+Perl
+Java 1.4
+Route
+Traceroute
+Ping
+JSON
+Shell Script
+ShellCheck
+Spellcheck
+Shared Root Password
+Voight-Kampf Test
+Caffeine@@Caffeine
+Localhost
+Loopback Adapter
+Bullshit
+Department
+Director
+Kubernetes
+AWS
+Azure
+Cloud
+Magic
+Integration
+Performance
+DevOps@@DevOps
+DevOps Days@@devops days
+Sushi
+Usenet
+IRC
+Skype
+HipChat
+Jira
+Slack
+Container
+Chatops
+Malformed URL
