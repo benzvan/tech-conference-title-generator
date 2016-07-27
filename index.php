@@ -33,13 +33,7 @@ function getRandomString($stringType, $stringModifier ) {
       }
 
     } else if ( "$stringType" == "adjective" ) {
-      if ( "$stringModifier" == "more" ) {
-        return trim($lineContents[1]);
-      } else if ( "$stringModifier" == "most" ) {
-        return trim($lineContents[2]);
-      } else {
-        return trim($lineContents[0]);
-      }
+      return trim($lineContents[0]);
 
     } else if ( "$stringType" == "verb" ) {
       if ( "$stringModifier" == "present" ) {

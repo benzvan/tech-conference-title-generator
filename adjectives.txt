@@ -1,5 +1,32 @@
-Fast@@Faster@@Fastest
-Slow@@Slower@@Slowest
-High@@Higher@@Highest
-Low@@Lower@@Lowest
-Secure@@More Secure@@Most secure
+Bleeding Edge
+Monitored
+Instrumented
+Mainstream
+Write-only
+Clickthrough
+Converged
+Converging
+Cross-platform
+Cutting Edge
+Datafied
+Defunct
+Depricated
+DevOps
+DevOpsey
+End-to-End
+Fast
+Faster
+High
+Low
+Lower
+Modular
+More Secure
+Scalable
+Secure
+Secured
+Skeuomorphic
+Slow
+Slower
+Slower
+Viral
+Virtual

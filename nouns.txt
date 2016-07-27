@@ -1,15 +1,18 @@
-/var/log Symlinked to /dev/null@@Log Directories Symlinked to /dev/null
 /dev/null@@/devs/null
+/var/log Symlinked to /dev/null@@Log Directories Symlinked to /dev/null
 2400 Baud Modem
 3-Hour Standup
 AWS
 Azure
+Bring Your Own Device
 Brogrammer
 Bullshit@@Bullshit
 Caffeine@@Caffeine
 Chatops@@Chatopses
 Chef
 Cloud
+Code
+Codebase
 Container
 Culture
 Culture Change
@@ -20,6 +23,7 @@ DevOps@@DevOps
 Developer
 Director
 Duct Tape@@Duct Tape
+Error
 Global Write Lock
 Google
 Heartbleed
@@ -28,6 +32,7 @@ Hypervisor
 IRC
 Infrastructure
 Integration
+JPL
 JSON
 Java 1.4
 Jenkins
@@ -41,6 +46,7 @@ Magic
 Magic Smoke
 Malformed URL
 Meritocracy@@Meritocracies
+NASA
 NoSQL
 OpenSSL
 Oracle
@@ -49,16 +55,26 @@ Perl
 Ping
 Puppet
 Route
+Sales and Marketing Department
 Server
 Shared Root Password
 Shell Script
 ShellCheck
+Shibboleth
 Skillset
 Skype
 Slack
 Spellcheck
+Standard Error
+Standard Out
+Standare In
+Stunt Word
 Sushi
 Systemd@@Systemd
+Thought Leader
 Traceroute
+Twitter
 Usenet
 Voight-Kampff Test
+Y2K
+Zombie Process@@Zombie Processes
