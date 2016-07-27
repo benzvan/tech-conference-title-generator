@@ -1,1 +1,1 @@
-cp -r * /var/www/hosts/pubname.zvan.net/tech-conference-title-generator/
+cp -r * /var/www/hosts/conferencetitle.zvan.net/htdocs/

@@ -1,5 +1,5 @@
-fast@@faster@@fastest
-slow@@slower@@slowest
-high@@higher@@highest
-low@@lower@@lowest
-secure@@more secure@@most secure
+Fast@@Faster@@Fastest
+Slow@@Slower@@Slowest
+High@@Higher@@Highest
+Low@@Lower@@Lowest
+Secure@@More Secure@@Most secure

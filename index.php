@@ -1,12 +1,5 @@
 <?php
 
-/*
-noun = split("@@",$fileContents[$line])[0];
-
-
-*/
-
-
 $listOfFiles = [
   "noun" => "nouns.txt",
   "verb" => "verbs.txt",
@@ -57,8 +50,11 @@ function getRandomString($stringType, $stringModifier ) {
         return trim($lineContents[0]);
       }
 
+    } else if ( "$stringType" == "titleFormat" ) {
+      return trim($lineContents[0]);
+
     } else {
-      return "unrecognized word type";
+      return "unrecognized getString type";
     }
 
   } else {
@@ -67,12 +63,16 @@ function getRandomString($stringType, $stringModifier ) {
 }
 
 if ( $URI[1] == "get"  ) {
+// Return json
   if ( count($URI) == 4 ) {
-    $word = getRandomString($URI[2],$URI[3]);
+    $result = json_encode(getRandomString($URI[2],$URI[3]));
   } else if ( count($URI) == 3 ) {
-    $word = getRandomString($URI[2],"");
+    $result = json_encode(getRandomString($URI[2],""));
   }
-  print "{\"word\":\"$word\"}";
+  print "{\"string\":$result}";
+} else {
+// Display page
+  include "file://$cwd/mainpage.html";
 }
 
 ?>

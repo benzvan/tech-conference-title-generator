@@ -1,62 +1,62 @@
 /var/log Symlinked To /dev/null@@Log Directories Symlinked To /dev/null
-Culture
-Culture Change
-Server
-Google
-Keyboard
-Infrastructure
-3-Hour Standup
 2400 Baud Modem
-Duct Tape@@Duct Tape
-Global Write Lock
-Systemd@@Systemd
-Developer
-Skillset
-Heartbleed
-Jenkins
-Chef
-Puppet
-Hypervisor
-Magic Smoke
-Meritocracy@@Meritocracies
-Brogrammer
-NoSQL
-Oracle
-Database
-OpenSSL
-Perl
-Java 1.4
-Route
-Traceroute
-Ping
-JSON
-Shell Script
-ShellCheck
-Spellcheck
-Shared Root Password
-Voight-Kampf Test
-Caffeine@@Caffeine
-Localhost
-Loopback Adapter
-Bullshit
-Department
-Director
-Kubernetes
+3-Hour Standup
 AWS
 Azure
+Brogrammer
+Bullshit
+Caffeine@@Caffeine
+Chatops@@Chatopses
+Chef
 Cloud
-Magic
-Integration
-Performance
-DevOps@@DevOps
-DevOps Days@@devops days
-Sushi
-Usenet
-IRC
-Skype
-HipChat
-Jira
-Slack
 Container
-Chatops
+Culture
+Culture Change
+Database
+Department
+DevOps Days@@devops days
+DevOps@@DevOps
+Developer
+Director
+Duct Tape@@Duct Tape
+Global Write Lock
+Google
+Heartbleed
+HipChat
+Hypervisor
+IRC
+Infrastructure
+Integration
+JSON
+Java 1.4
+Jenkins
+Jira
+Keyboard
+Kubernetes
+Localhost
+Loopback Adapter
+Magic
+Magic Smoke
 Malformed URL
+Meritocracy@@Meritocracies
+NoSQL
+OpenSSL
+Oracle
+Performance
+Perl
+Ping
+Puppet
+Route
+Server
+Shared Root Password
+Shell Script
+ShellCheck
+Skillset
+Skype
+Slack
+Spellcheck
+Sushi
+Systemd@@Systemd
+Traceroute
+Usenet
+Voight-Kampff Test
