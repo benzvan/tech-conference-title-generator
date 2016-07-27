@@ -1,5 +1,6 @@
 Analyze@@Analyzing@@Analyzed
 Develop@@Developing@@Developed
+Symlink@@Symlinking@@Symlinked
 Apply@@Applying@@Applied
 Architect@@Architecting@@Architected
 Code@@Coding@@Coded

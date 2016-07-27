@@ -1,10 +1,11 @@
 /var/log Symlinked to /dev/null@@Log Directories Symlinked to /dev/null
+/dev/null@@/devs null
 2400 Baud Modem
 3-Hour Standup
 AWS
 Azure
 Brogrammer
-Bullshit
+Bullshit@@Bullshit
 Caffeine@@Caffeine
 Chatops@@Chatopses
 Chef
