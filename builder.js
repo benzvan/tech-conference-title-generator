@@ -7,7 +7,7 @@ function getJSON(thingToGet, elementID, signal) {
         var jsonurl = "/get/";
 	var result = "";
 
-        xmlhttp.open("GET", jsonurl + urlsForThings[thingToGet]);
+        xmlhttp.open("GET", jsonurl + urlsForThings[thingToGet] + "?" +  Math.random().toString().split("\.")[1] );
         xmlhttp.send();
 
         xmlhttp.onreadystatechange = function() {
@@ -15,11 +15,13 @@ function getJSON(thingToGet, elementID, signal) {
                 if (xmlhttp.readyState == 4) {
                         if (xmlhttp.status == 200) {
 				// Success!!!
-				document.getElementById(elementID).innerHTML = result = JSON.parse(xmlhttp.responseText).string;
+				result = JSON.parse(xmlhttp.responseText).string;
+				console.log(elementID + " returned " + result);
+				document.getElementById(elementID).innerHTML = result;
+				console.log("set " + elementID + " to " + document.getElementById(elementID).innerHTML);
 				if ( signal ) {
 					titleSet();
 				}
-				//console.log("set " + elementID + " to " + document.getElementById(elementID).innerHTML);
                         } else { 
 				// Failure!!!
                                 xmlhttpresult += " with http status: " + xmlhttp.status;
@@ -43,9 +45,9 @@ function setTitleValue(itemID) {
 
 function fillInTitleBits() {
 	var titleChildren = document.getElementById("conferencetitle").children;	
-	//console.log("found " + titleChildren.length + " child nodes.");
+	console.log("found " + titleChildren.length + " child nodes.");
 	for (i = 0; i < titleChildren.length; i++) {
-		//console.log("doing: " + titleChildren[i].id);
+		console.log("doing: " + titleChildren[i].id);
 		setTitleValue(titleChildren[i].id);
 	}
 }

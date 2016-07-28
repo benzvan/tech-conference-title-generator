@@ -9,7 +9,10 @@ $listOfFiles = [
 
 $cwd = dirname(__FILE__);
 
-$URI = split("/",$_SERVER['REQUEST_URI']);
+$noQuery = split("\?",$_SERVER['REQUEST_URI'])[0];
+//$URI = split("/",$_SERVER['REQUEST_URI']);
+$URI = split("/",$noQuery);
+
 
 
 function getRandomString($stringType, $stringModifier ) {
@@ -19,7 +22,7 @@ function getRandomString($stringType, $stringModifier ) {
     #print "string type = $stringType\n";
     #print "file to read = $listOfFiles[$stringType]\n";
     $fileContents = file( "file://$cwd/$listOfFiles[$stringType]");
-    $lineContents = split("@@",$fileContents[rand(0, count($fileContents) - 1)]);
+    $lineContents = split("@@",$fileContents[mt_rand(0, count($fileContents) - 1)]);
     
     if ( "$stringType" == "noun" ) {
       if ( "$stringModifier" == "plural" ) {
