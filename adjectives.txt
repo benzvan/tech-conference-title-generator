@@ -10,7 +10,7 @@ Cross-platform
 Cutting Edge
 Datafied
 Defunct
-Depricated
+Deprecated
 DevOps
 DevOpsey
 End-to-End
