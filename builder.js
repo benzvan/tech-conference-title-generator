@@ -1,7 +1,8 @@
 var responseMessages = [ "request not initialized","server connection established","request received","processing request","request finished and response is ready" ];
 var urlsForThings = { "noun":"noun","pluralnoun":"noun/plural","adjective":"adjective","adjectivemore":"adjective/more","verb":"verb","titleFormat":"titleFormat" };
 
-function getJSON(thingToGet, elementID, signal=false) {
+function getJSON(thingToGet, elementID, signal) {
+	if (typeof(signal)==='undefined') signal = false;
         var xmlhttp = new XMLHttpRequest();
         var jsonurl = "/get/";
 	var result = "";
