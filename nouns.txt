@@ -2,9 +2,11 @@
 /var/log Symlinked to /dev/null@@Log Directories Symlinked to /dev/null
 2400 Baud Modem
 3-Hour Standup
-AWS
+Architect
+AWS@@AWS
 Azure
-Bring Your Own Device
+Bailing Wire@@Bailing Wire
+Bring-Your-Own Device
 Brogrammer
 Bullshit@@Bullshit
 Caffeine@@Caffeine
@@ -18,7 +20,7 @@ Culture
 Culture Change
 Database
 Department
-DevOps Days@@devops days
+DevOps Days@@DevOps Days
 DevOps@@DevOps
 Developer
 Director
@@ -35,18 +37,18 @@ Integration
 JPL
 JSON
 Java 1.4
-Jenkins
+Jenkins@@Jenkins
 Jira
 Keyboard
 Kubernetes
 Load Test
 Localhost
 Loopback Adapter
-Magic
 Magic Smoke
+Magic@@Magic
 Malformed URL
 Meritocracy@@Meritocracies
-NASA
+NASA@@NASA
 NoSQL
 OpenSSL
 Oracle
@@ -66,8 +68,8 @@ Skype
 Slack
 Spellcheck
 Standard Error
-Standard Out
 Standard In
+Standard Out
 Stunt Word
 Sushi
 Systemd@@Systemd
@@ -76,5 +78,5 @@ Traceroute
 Twitter
 Usenet
 Voight-Kampff Test
-Y2K
+Y2K@@Y2K
 Zombie Process@@Zombie Processes

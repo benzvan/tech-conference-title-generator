@@ -1,8 +1,5 @@
+Agile
 Bleeding Edge
-Monitored
-Instrumented
-Mainstream
-Write-only
 Clickthrough
 Converged
 Converging
@@ -16,17 +13,19 @@ DevOpsey
 End-to-End
 Fast
 Faster
-High
-Low
-Lower
+Instrumented
+Mainstream
 Modular
+Monitored
 More Secure
 Scalable
 Secure
 Secured
+Service Oriented
 Skeuomorphic
 Slow
 Slower
-Slower
 Viral
 Virtual
+Write-only
+Zero-Downtime
