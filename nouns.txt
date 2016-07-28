@@ -67,7 +67,7 @@ Slack
 Spellcheck
 Standard Error
 Standard Out
-Standare In
+Standard In
 Stunt Word
 Sushi
 Systemd@@Systemd
