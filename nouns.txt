@@ -1,23 +1,44 @@
 /dev/null@@/devs/null
+/dev/urandom@@/devs/urandom
 /var/log Symlinked to /dev/null@@Log Directories Symlinked to /dev/null
+16 Bytes of Free Swap Space@@16 Bytes of Free Swap Space
 2400 Baud Modem
 3-Hour Standup
-Architect
+36-Hour Maintenance Window
+3:00 AM Page
+40" Monitor
+64k of RAM@@64k of RAM
+Out-of-memory Killer
+API
 AWS@@AWS
+Administration
+Advice
+Alcohol
+Architect
 Azure
 Bailing Wire@@Bailing Wire
+Bare Metal
+Bash@@Bashes
+Blame Culture
 Bring-Your-Own Device
 Brogrammer
 Bullshit@@Bullshit
+Burndown
+Bus Factor
 Caffeine@@Caffeine
+Cat Gif
 Chatops@@Chatopses
 Chef
 Cloud
 Code
 Codebase
+Coffee
+Compuserve
 Container
 Culture
 Culture Change
+Customer
+Customer Service
 Database
 Department
 DevOps Days@@DevOps Days
@@ -25,40 +46,78 @@ DevOps@@DevOps
 Developer
 Director
 Duct Tape@@Duct Tape
+Empathy@@Empathies
 Error
+Excitement
+Explanation
+External Hard Drive
+Feedback
+Feedback Loop
+Firewall
 Global Write Lock
 Google
+Google Drive
+Hammer
 Heartbleed
 HipChat
+Hotmail
 Hypervisor
+ID Card
+IPv6
 IRC
 Infrastructure
 Integration
+Internet
 JPL
 JSON
 Java 1.4
 Jenkins@@Jenkins
 Jira
+Jpeg
 Keyboard
+Knowledge
+Ksh@@Kshes
 Kubernetes
+Lead Time
+Liquid Cooling
 Load Test
 Localhost
 Loopback Adapter
+Magic
 Magic Smoke
-Magic@@Magic
+Maintenance
 Malformed URL
+Marketing Department
+Memory Pressure@@Memory Pressure
 Meritocracy@@Meritocracies
 NASA@@NASA
+Negotiation
+NoClassDefFoundError
 NoSQL
+Office
 OpenSSL
+Operations
 Oracle
+PairOps
 Performance
 Perl
 Ping
+Prodigy@@Prodigies
 Puppet
+Quantum Dot
+Rack
+Real User Monitoring
+Repository@@Repositories
+Research
+Resolution
+Rockstar
+Root-Cause Analysis@@Root-Cause Analyses
 Route
-Sales and Marketing Department
+SSL
+Scrum
+Security Team
 Server
+Service
 Shared Root Password
 Shell Script
 ShellCheck
@@ -71,12 +130,22 @@ Standard Error
 Standard In
 Standard Out
 Stunt Word
+Support
 Sushi
 Systemd@@Systemd
+Technology@@Technologies
+Testing in Production
+The Business
+The EFF
 Thought Leader
 Traceroute
 Twitter
+URL
 Usenet
+Vhost
 Voight-Kampff Test
+Work-Life Balance
+XML
 Y2K@@Y2K
+Zero-Day Exploit
 Zombie Process@@Zombie Processes
