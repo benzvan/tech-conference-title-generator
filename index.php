@@ -4,6 +4,7 @@ $listOfFiles = [
   "noun" => "nouns.txt",
   "verb" => "verbs.txt",
   "adjective" => "adjectives.txt",
+  "addonPhrase" => "addonPhrases.txt",
   "titleFormat" => "titleFormats.txt",
 ];
 
@@ -46,6 +47,9 @@ function getRandomString($stringType, $stringModifier ) {
       } else {
         return trim($lineContents[0]);
       }
+
+    } else if ( "$stringType" == "addonPhrase" ) {
+      return trim($lineContents[0]);
 
     } else if ( "$stringType" == "titleFormat" ) {
       return trim($lineContents[0]);

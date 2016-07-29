@@ -1,5 +1,5 @@
 var responseMessages = [ "request not initialized","server connection established","request received","processing request","request finished and response is ready" ];
-var urlsForThings = { "noun":"noun","pluralnoun":"noun/plural","adjective":"adjective","adjectivemore":"adjective/more","verb":"verb","presentcontinuousverb":"verb/present","titleFormat":"titleFormat" };
+var urlsForThings = { "noun":"noun","pluralnoun":"noun/plural","adjective":"adjective","adjectivemore":"adjective/more","verb":"verb","presentcontinuousverb":"verb/present","addonPhrase":"addonPhrase","titleFormat":"titleFormat" };
 
 function getJSON(thingToGet, elementID, signal) {
 	if (typeof(signal)==='undefined') signal = false;
