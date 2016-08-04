@@ -16,9 +16,7 @@ function getJSON(thingToGet, elementID, signal) {
                         if (xmlhttp.status == 200) {
 				// Success!!!
 				result = JSON.parse(xmlhttp.responseText).string;
-				console.log(elementID + " returned " + result);
 				document.getElementById(elementID).innerHTML = result;
-				console.log("set " + elementID + " to " + document.getElementById(elementID).innerHTML);
 				if ( signal ) {
 					titleSet();
 				}
@@ -28,7 +26,6 @@ function getJSON(thingToGet, elementID, signal) {
                         }
                 } else {
 			// Not done yet
-			//console.log("request result: " + xmlhttpresult);
                 }
         }
 }
@@ -39,15 +36,12 @@ function setTitleFormat() {
 
 function setTitleValue(itemID) {
 	var itemType = itemID.replace( /\d+$/, '' );
-	//console.log("itemID: " + itemID + ", itemType: " + itemType);
 	getJSON(itemType, itemID);
 }
 
 function fillInTitleBits() {
 	var titleChildren = document.getElementById("conferencetitle").children;	
-	console.log("found " + titleChildren.length + " child nodes.");
 	for (i = 0; i < titleChildren.length; i++) {
-		console.log("doing: " + titleChildren[i].id);
 		setTitleValue(titleChildren[i].id);
 	}
 }
