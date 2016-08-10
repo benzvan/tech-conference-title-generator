@@ -1,8 +1,9 @@
 <?php
-$listOfNouns = "nouns.txt";
-$listOfVerbs = "verbs.txt";
-$listOfAdjectives = "adjectives.txt";
-$listOfTitleFormats = "titleFormats.txt";
+$dataDirectory = "data"
+$listOfNouns = $dataDirectory . "/nouns.txt";
+$listOfVerbs = $dataDirectory . "/verbs.txt";
+$listOfAdjectives = $dataDirectory . "/adjectives.txt";
+$listOfTitleFormats = $dataDirectory . "/titleFormats.txt";
 
 $URI = $_SERVER['REQUEST_URI'];
 
