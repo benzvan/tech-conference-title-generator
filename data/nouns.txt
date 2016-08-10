@@ -79,6 +79,7 @@ Knowledge
 Ksh@@Kshes
 Kubernetes
 Lead Time
+LEGO@@LEGO
 Liquid Cooling
 Load Test
 Localhost
