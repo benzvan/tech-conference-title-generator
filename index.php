@@ -1,11 +1,13 @@
 <?php
 
+$dataPath = "data";
+
 $listOfFiles = [
-  "noun" => "nouns.txt",
-  "verb" => "verbs.txt",
-  "adjective" => "adjectives.txt",
-  "addonPhrase" => "addonPhrases.txt",
-  "titleFormat" => "titleFormats.txt",
+  "noun" => $dataPath . "/" . "nouns.txt",
+  "verb" => $dataPath . "/" . "verbs.txt",
+  "adjective" => $dataPath . "/" . "adjectives.txt",
+  "addonPhrase" => $dataPath . "/" . "addonPhrases.txt",
+  "titleFormat" => $dataPath . "/" . "titleFormats.txt",
 ];
 
 $cwd = dirname(__FILE__);
