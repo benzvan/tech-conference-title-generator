@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-TARGET=/var/www/hosts/conferencetitle.zvan.net/htdocs/
+TARGET=$1
 cp -r * "${TARGET}"
 rm "${TARGET}"/$0
