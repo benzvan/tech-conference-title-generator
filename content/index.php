@@ -72,6 +72,7 @@ if ( $URI[1] == "get"  ) {
   } else if ( count($URI) == 3 ) {
     $result = json_encode(getRandomString($URI[2],""));
   }
+  header('Content-type: application/json');
   print "{\"string\":$result}";
 } else {
 // Display page
