@@ -68,12 +68,12 @@ function getRandomString($stringType, $stringModifier ) {
 if ( $URI[1] == "get"  ) {
 // Return json
   if ( count($URI) == 4 ) {
-    $result = json_encode(getRandomString($URI[2],$URI[3]));
+    $result = [ 'string' => getRandomString($URI[2],$URI[3]) ];
   } else if ( count($URI) == 3 ) {
-    $result = json_encode(getRandomString($URI[2],""));
+    $result = [ 'string' => getRandomString($URI[2],"") ];
   }
   header('Content-type: application/json');
-  print "{\"string\":$result}";
+  echo json_encode($result);
 } else {
 // Display page
   include "file://$cwd/mainpage.html";
