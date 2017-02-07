@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SOURCE=./content
+SOURCE=./src/main/webapp
 BASE=/var/www/hosts
 TEST=conferencetitle.zvan.net-beta
 PROD=conferencetitle.zvan.net
