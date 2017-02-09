@@ -34,6 +34,7 @@ Code
 Codebase
 Coffee
 Compuserve
+Config File
 Container
 Culture
 Culture Change
@@ -94,13 +95,13 @@ Meritocracy@@Meritocracies
 NASA@@NASA
 Negotiation
 NoClassDefFoundError
-NoSQL
-Office
-OpenSSL
-Operations
+NoSQL@@NoSQL
+Office 2010@@Office 2010
+OpenSSL@@OpenSSL
+Operations@@Operations
 Oracle
 Orchestration
-PairOps
+PairOps@@PairOps
 Performance
 Perl
 Ping
@@ -149,5 +150,6 @@ Voight-Kampff Test
 Work-Life Balance
 XML
 Y2K@@Y2K
+YAML
 Zero-Day Exploit
 Zombie Process@@Zombie Processes
