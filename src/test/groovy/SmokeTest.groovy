@@ -19,6 +19,7 @@ class smokeTest extends Specification {
         response.contentType                        == 'application/json'
         response.data                               != null
         response.data.string		            != ''
+	response.data.string			    != 'No'
     }
 
     def "Get noun/plural returns string"() {
