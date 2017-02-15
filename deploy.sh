@@ -12,6 +12,7 @@ echo "Update version:  ${UPDATE}"
 if [ "$1" == pr ]; then
   echo "Production!"
   rsync -av "${SOURCE}"/ "${BASE}"/"${PROD}"/
+  gradlew test
 else
   echo "Testing!"
   echo "For production use: '$0 pr'"

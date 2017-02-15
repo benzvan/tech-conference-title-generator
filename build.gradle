@@ -19,6 +19,14 @@ repositories {
     jcenter()
 }
 
+tasks.withType(Test) {
+    // Default URL to test is http://localhost
+    // To override for remote smoke/functional test, use -DbaseURL=<url> on the gradlew command line
+    String baseURL = System.getProperty('baseURL') ?: 'http://localhost/'
+    System.setProperty('baseURL', baseURL)
+    systemProperties = System.properties
+}
+
 dependencies {
     // The production code uses Guava
     compile 'com.google.guava:guava:20.0'

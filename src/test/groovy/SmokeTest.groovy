@@ -7,7 +7,7 @@ import spock.lang.Specification
 class smokeTest extends Specification {
 
     @Shared
-    RESTClient client = new RESTClient('http://localhost/')
+    RESTClient client = new RESTClient(System.getProperty('baseURL'))
 
     def "Get noun returns string"() {
         when: "We ask for a noun"
