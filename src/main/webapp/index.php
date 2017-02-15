@@ -4,17 +4,16 @@ $dataPath = "data";
 
 $listOfFiles = [
   "noun" => $dataPath . "/" . "nouns.txt",
-  "verb" => $dataPath . "/" . "verbs.txt",
   "adjective" => $dataPath . "/" . "adjectives.txt",
+  "verb" => $dataPath . "/" . "verbs.txt",
   "addonPhrase" => $dataPath . "/" . "addonPhrases.txt",
   "titleFormat" => $dataPath . "/" . "titleFormats.txt",
 ];
 
 $cwd = dirname(__FILE__);
 
-$noQuery = split("\?",$_SERVER['REQUEST_URI'])[0];
-//$URI = split("/",$_SERVER['REQUEST_URI']);
-$URI = split("/",$noQuery);
+$noQuery = explode("?",$_SERVER['REQUEST_URI'])[0];
+$URI = explode("/",$noQuery);
 
 
 
@@ -25,7 +24,7 @@ function getRandomString($stringType, $stringModifier ) {
     #print "string type = $stringType\n";
     #print "file to read = $listOfFiles[$stringType]\n";
     $fileContents = file( "file://$cwd/$listOfFiles[$stringType]");
-    $lineContents = split("@@",$fileContents[mt_rand(0, count($fileContents) - 1)]);
+    $lineContents = explode("@@",$fileContents[mt_rand(0, count($fileContents) - 1)]);
     
     if ( "$stringType" == "noun" ) {
       if ( "$stringModifier" == "plural" ) {
