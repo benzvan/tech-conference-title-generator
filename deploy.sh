@@ -2,8 +2,8 @@
 
 SOURCE=./src/main/webapp
 BASE=/var/www/hosts
-TEST=conferencetitle.zvan.net-beta
-PROD=conferencetitle.zvan.net
+TEST=conferencetitle.zvan.net-beta/htdocs
+PROD=conferencetitle.zvan.net/htdocs
 
 git pull --rebase
 UPDATE="$(git log | head -1)"
