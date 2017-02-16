@@ -7,7 +7,7 @@ function getJSON(thingToGet, elementID, signal) {
         var jsonurl = "/get/";
 	var result = "";
 
-        xmlhttp.open("GET", jsonurl + urlsForThings[thingToGet] + "?" +  Math.random().toString().split("\.")[1] );
+        xmlhttp.open("GET", jsonurl + urlsForThings[thingToGet] + "?u=" +  Math.random().toString().split("\.")[1] );
         xmlhttp.send();
 
         xmlhttp.onreadystatechange = function() {
