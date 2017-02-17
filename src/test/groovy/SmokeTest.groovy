@@ -87,4 +87,17 @@ class smokeTest extends Specification {
 	response.data.string			    != 'No'
     }
 
+    def "Get title format returns string"() {
+        when: "We ask for a bad object"
+        def response = client.get(path : "/get/somethingelse", query: [ "u":"forceunique" ])
+
+        then: "We should get a valid response containing 'No'"
+        notThrown(Exception)
+        response.status                             == 200
+        response.contentType                        == 'application/json'
+        response.data                               != null
+        response.data.string		            != ''
+	response.data.string			    == 'No'
+    }
+
 }
