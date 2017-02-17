@@ -22,8 +22,11 @@ repositories {
 tasks.withType(Test) {
     // Default URL to test is http://localhost
     // To override for remote smoke/functional test, use -DbaseURL=<url> on the gradlew command line
+    // set baseURL to the system property or to the default of localhost
     String baseURL = System.getProperty('baseURL') ?: 'http://localhost/'
+    // Set the system property to baseURL (in case it was not set and baseURL is now localhost)
     System.setProperty('baseURL', baseURL)
+    // Copy everything under System.properties to the internal systemProperties.
     systemProperties = System.properties
 }
 
