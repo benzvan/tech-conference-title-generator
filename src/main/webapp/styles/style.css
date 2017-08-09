@@ -23,3 +23,7 @@
 .twitter-share-button {
   width: 80px !important;
 }
+
+#version p {
+  font-size: 50%;
+}
